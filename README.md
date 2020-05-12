@@ -4,10 +4,10 @@ Dion Liddell, May 2020
 ## Overview
 This ArcGIS Jupyter Notebook turns the Choices associated with a nominated Survey123 Dropdown Field into scannable QR Codes. Each QR Code generated represents one Choice in the Dropdown Field. Scan a generated QR Code with a modern smartphone camera, and the Survey will open in the smartphone's mobile web browser with the Dropdown Field correctly pre-populated.
 
-The generated QR Codes could be used, for example, to help track building entry and exit movements.  Entry and Exit QR Codes could be placed on entranceways and exits: e.g. Libray Entry, Library Exit, Marketing Entry, Marketing Exit.
+The generated QR Codes could be used, for example, to help track building entry and exit movements.  Entry and Exit QR Codes could be placed on entranceways and exits: e.g. Libray Entry, Library Exit, Marketing Entry, Marketing Exit, etc...
 
 ## Procedure
-This Notebook was created and tested in ArcGIS Online - [ArcGIS Notebooks Beta](https://www.esri.com/arcgis-blog/products/arcgis-online/analytics/arcgis-notebooks-public-beta/)
+This Notebook was created and tested in ArcGIS Online - [ArcGIS Online Notebooks Beta](https://www.esri.com/arcgis-blog/products/arcgis-online/analytics/arcgis-notebooks-public-beta/)
 
 1. Create a [Survey123 survey](https://survey123.arcgis.com/) that contains a nominated Dropdown Field that has been populated with a number of Choices
 2. Take note of the (random) Survey ID contained within the Survey123 URL. e.g. ```https://survey123.arcgis.com/surveys/```**{my random Survey123 ID}**```/someparameter``` 
